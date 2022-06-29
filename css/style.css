@@ -14,6 +14,20 @@ html, body {
     padding: 0 15vw;
 }
 
+.quote-bg {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    color: #4b5563;
+}
+
+.large-quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -80,4 +94,57 @@ html, body {
     background-color: #3882f6;
     color: white;
     border-radius: 6px;
+}
+
+#block-1 {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+#block-1 > h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#block-1-flex, .item {
+    display: flex;
+    gap: 1rem;
+}
+
+#block-1-flex {
+    justify-content: space-evenly;
+}
+
+.item {
+    align-items: center;
+    flex-direction: column;
+    max-width: 10rem;
+    text-align: center;
+}
+
+.item > p {
+    margin: 0;
+}
+
+.square {
+    height: 10rem;
+    width: 10rem;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+
+#quote-block {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#quote-block > p {
+    padding: 0 6rem;
+}
+
+#quote-block > p.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
